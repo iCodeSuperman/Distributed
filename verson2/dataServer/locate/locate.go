@@ -1,6 +1,7 @@
 package locate
 
 import (
+	"../../rabbitmq"
 	"os"
 	"strconv"
 )

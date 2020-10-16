@@ -44,7 +44,7 @@ func Locate(name string) string {
 }
 
 //通过检查Locate结果是否为空字符串来判定对象是否存在
-func Exit(name string) bool {
+func Exist(name string) bool {
 	return Locate(name) != ""
 }
 
